@@ -58,7 +58,7 @@ def check_last_8_digits_match(file1, file2):
     return last_8_file1 == last_8_file2, last_8_file1, last_8_file2
 
 
-years = [2017,2018]
+years = [2019]
 
 for year in years:
     occ_root = f'/data/emfisis_burst/wip/rablack75/rablack75/CountSurvey/CSVschorus_surveypowerA/{year}'                
